@@ -1,0 +1,137 @@
+/* IMPOSTAZIONI GENERALI */
+
+@font-face {
+    src: url(../webfonts/fa-brands-400.svg);
+}
+
+.ombreggiatura {
+    display: block;
+    box-shadow: 4px 4px 8px 2px #666;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(/assets/img/sfondo.png);
+    max-width: 500px;
+}
+
+
+/* HEADER */
+
+header {
+    background: linear-gradient(to top, #373b44, #4286f4);
+    color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+header nav {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+
+header img {
+    padding: 10px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header p {
+    text-transform: uppercase;
+}
+
+
+/*a::before {
+    content: url(/assets/webfonts/);
+}*/
+
+
+/* MAIN */
+
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.autore {
+    color: lightgrey;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+strong {
+    color: purple;
+}
+
+main p {
+    line-height: 2;
+}
+
+main li {
+    list-style-position: inside;
+    line-height: 1.5;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+code {
+    background-color: lightgray;
+    border-radius: 10%;
+    border: solid 2px grey;
+}
+
+ul,
+ol {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table {
+    margin: auto;
+}
+
+caption {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+thead {
+    background-color: #4286f4;
+    color: white;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+
+/* TABELLE */
+
+
+/* FORM */
+
+
+/* ELEMENTI NELL' ASIDE */
+
+
+/* FOOTER */
