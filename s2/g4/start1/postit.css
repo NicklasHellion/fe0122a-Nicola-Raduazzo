@@ -1,0 +1,124 @@
+/* FONT */
+
+
+/*ANIMATION*/
+
+.transform div {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: burlywood;
+    border: 1px solid brown;
+    transform: skew(20deg, -10deg);
+    transform-origin: bottom right;
+}
+
+.transform div:nth-child(even) {
+    transform: skew(-20deg, 10deg);
+    transform-origin: top left;
+}
+
+.animazione:hover {
+    transform: rotate(0);
+    transform: scale(150%);
+    transition-duration: 1s;
+}
+
+
+/*BODY*/
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    font-family: "Comforter", cursive;
+    background-color: darkgrey;
+    height: 600px;
+    width: 90%%;
+    margin: 50px 50px 0px 50px;
+    column-gap: 20px;
+    padding: 10px 20px 10px 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+}
+
+.postit {
+    background: linear-gradient(to bottom, #fffc00, rgb(94, 91, 91));
+    box-shadow: 7px 7px 15px 5px rgb(97, 96, 96);
+    transform: rotate(-5deg);
+    transform-origin: center;
+    width: 250px;
+    height: 250px;
+}
+
+.postit-2 {
+    background: linear-gradient(to bottom, #fffc00, rgb(94, 91, 91));
+    box-shadow: 7px 7px 15px 5px rgb(97, 96, 96);
+    transform: rotate(5deg);
+    transform-origin: center;
+    width: 250px;
+    height: 250px;
+}
+
+.postit-3 {
+    background: linear-gradient(to bottom, #fffc00, rgb(94, 91, 91));
+    box-shadow: 7px 7px 15px 5px rgb(97, 96, 96);
+    transform: rotate(-5deg);
+    transform-origin: center;
+    width: 250px;
+    height: 250px;
+}
+
+.postit-4 {
+    background: linear-gradient(to bottom, #fffc00, rgb(94, 91, 91));
+    box-shadow: 7px 7px 15px 5px rgb(97, 96, 96);
+    transform: rotate(-5deg);
+    transform-origin: center;
+    width: 250px;
+    height: 250px;
+}
+
+.postit-5 {
+    background: linear-gradient(to bottom, #fffc00, rgb(94, 91, 91));
+    box-shadow: 7px 7px 15px 5px rgb(97, 96, 96);
+    transform: rotate(5deg);
+    transform-origin: center;
+    width: 250px;
+    height: 250px;
+}
+
+.postit-6 {
+    background: linear-gradient(to bottom, #fffc00, rgb(94, 91, 91));
+    box-shadow: 7px 7px 15px 5px rgb(97, 96, 96);
+    transform: rotate(-5deg);
+    transform-origin: center;
+    width: 250px;
+    height: 250px;
+}
+
+.postit-7 {
+    background: linear-gradient(to bottom, #fffc00, rgb(94, 91, 91));
+    box-shadow: 7px 7px 15px 5px rgb(97, 96, 96);
+    transform: rotate(5deg);
+    transform-origin: center;
+    width: 250px;
+    height: 250px;
+}
+
+.postit-8 {
+    background: linear-gradient(to bottom, #fffc00, rgb(94, 91, 91));
+    box-shadow: 7px 7px 15px 5px rgb(97, 96, 96);
+    transform: rotate(5deg);
+    transform-origin: center;
+    width: 250px;
+    height: 250px;
+}
