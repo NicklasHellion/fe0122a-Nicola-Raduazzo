@@ -47,7 +47,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="row">
+            <div class="row two-pics">
                 <div class="col">
                     <div class="jumbotron p-3">
                         <h1 class="text-center">Welcome to Guitar Shop!</h1>
@@ -73,10 +73,10 @@
             <div class="row">
                 <div class="col">
                     <div class="card h-100">
-                        <div class="card-header">Come and try them all.</div>
+                        <div class="card-header text-center">Come and try them all.</div>
                         <img class="card-img-top" src="images/guitar2.jpg" alt="Guitarist playing" />
                         <div class="card-body">
-                            <p class="card-text">
+                            <p class="card-text text-center">
                                 Our shop is open 7/7 if you want to try our instruments.
                             </p>
                         </div>
@@ -84,10 +84,10 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <div class="card-header">Beginner? No problem!</div>
+                        <div class="card-header text-center">Beginner? No problem!</div>
                         <img class="card-img-top" src="images/guitar3.jpg" alt="Guitarist playing" />
                         <div class="card-body">
-                            <p class="card-text">
+                            <p class="card-text text-center">
                                 Our team is always there to help you make the right choice!
                             </p>
                         </div>
@@ -95,36 +95,67 @@
                 </div>
             </div>
 
-            <br />
+        </div>
 
-            <div class="row">
-                <div class="col">
-                    <div id="gardeningAlbum" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/guitar4.jpg" class="d-block w-100" alt="guitarist playing" />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/guitar1.jpg" class="d-block w-100" alt="guitarist playing" />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/guitar5.jpg" class="d-block w-100" alt="guitarist playing" />
-                            </div>
+        <br />
+
+        <section class="section section-default mt-none mb-none">
+            <div class="container">
+                <h2 class="mb-sm text-center">Our <strong>Partners</strong></h2>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="square-holder">
+                            <img alt="guitar brand" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Fender_%28Musikinstrumente%29_logo.svg" />
                         </div>
-                        <a class="carousel-control-prev" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="square-holder">
+                            <img alt="guitar brand" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Gibson_logo.svg/320px-Gibson_logo.svg.png" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="square-holder">
+                            <img alt="guitar brand" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Ibanez_logo.svg" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="square-holder">
+                            <img alt="guitar brand" src="https://upload.wikimedia.org/wikipedia/en/e/ee/Ernie_ball_music_man_logo.png" />
+                        </div>
                     </div>
                 </div>
+
             </div>
+        </section>
 
-
+        <div class="row">
+            <div class="col">
+                <div class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/guitar4.jpg" class="d-block w-100" alt="guitarist playing" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/guitar1.jpg" class="d-block w-100" alt="guitarist playing" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/guitar5.jpg" class="d-block w-100" alt="guitarist playing" />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </div>
+
+        <hr>
 
     </div>
     <footer class="footer bg-secondary text-dark">
@@ -141,7 +172,7 @@
         </div>
     </footer>
     </div>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
