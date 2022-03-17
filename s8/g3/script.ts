@@ -44,8 +44,6 @@ class Artigiani extends Tasse {
   }
 }
 
-Artigiani.prototype.codredd = 1;
-
 class Impiegati extends Tasse {
   getUtileTasse() {
     return this.getTasseInps() + this.getTasseIrpef();
